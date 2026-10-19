@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sys-info",
+    "name": "System Info",
+    "command": "fastfetch",
+    "description": "Affiche les informations système (fastfetch).",
+    "category": "systeme",
+    "params": "",
+    "example": "yhelp -> System Info",
+    "favorite": false,
+    "use_count": 0,
+    "dangerous": false
+  },
+  {
+    "id": "disk",
+    "name": "Disk",
+    "command": "df -h",
+    "description": "Affiche l'utilisation des disques.",
+    "category": "systeme",
+    "params": "",
+    "example": "",
+    "favorite": false,
+    "use_count": 0,
+    "dangerous": false
+  },
+  {
+    "id": "memory",
+    "name": "Memory",
+    "command": "free -h",
+    "description": "Affiche l'utilisation de la mémoire.",
+    "category": "systeme",
+    "params": "",
+    "example": "",
+    "favorite": false,
+    "use_count": 0,
+    "dangerous": false
+  },
+  {
+    "id": "git-status",
+    "name": "Git Status",
+    "command": "git status",
+    "description": "Affiche l'état du dépôt Git courant.",
+    "category": "git",
+    "params": "",
+    "example": "",
+    "favorite": false,
+    "use_count": 0,
+    "dangerous": false
+  },
+  {
+    "id": "git-log",
+    "name": "Git Log",
+    "command": "git log --oneline",
+    "description": "Affiche l'historique Git condensé.",
+    "category": "git",
+    "params": "",
+    "example": "",
+    "favorite": false,
+    "use_count": 0,
+    "dangerous": false
+  },
+  {
+    "id": "pip-version",
+    "name": "Pip Version",
+    "command": "pip --version",
+    "description": "Affiche la version de pip installée.",
+    "category": "python",
+    "params": "",
+    "example": "",
+    "favorite": false,
+    "use_count": 0,
+    "dangerous": false
+  }
+]

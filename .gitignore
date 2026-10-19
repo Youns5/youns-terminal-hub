@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Données utilisateur / sauvegardes
+history.json
+*.bak
+*.tmp
+.env
+
+# Éditeurs / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store

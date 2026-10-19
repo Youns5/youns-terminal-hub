@@ -1,0 +1,27 @@
+[
+  {
+    "id": "navigation",
+    "name": "Navigation",
+    "icon": "📁"
+  },
+  {
+    "id": "outils",
+    "name": "Outils",
+    "icon": "🛠"
+  },
+  {
+    "id": "systeme",
+    "name": "Système",
+    "icon": "⚡"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "icon": "🔧"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "icon": "🐍"
+  }
+]

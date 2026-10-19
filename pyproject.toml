@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youns-terminal-hub"
+dynamic = ["version"]
+description = "Hub de commandes pour le terminal Linux : TUI néon, favoris, raccourcis de dossiers, historique."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Youns" }]
+keywords = ["terminal", "tui", "cli", "devops", "linux", "shell"]
+classifiers = [
+  "Environment :: Console",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+]
+dependencies = []
+
+[project.scripts]
+yhelp-tui = "yhelp_tui.cli:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "yhelp_tui.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+yhelp_tui = ["defaults/*.json"]

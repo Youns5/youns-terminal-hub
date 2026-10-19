@@ -1,0 +1,22 @@
+[
+  {
+    "id": "home",
+    "name": "Home",
+    "path": "~"
+  },
+  {
+    "id": "downloads",
+    "name": "Downloads",
+    "path": "~/Downloads"
+  },
+  {
+    "id": "documents",
+    "name": "Documents",
+    "path": "~/Documents"
+  },
+  {
+    "id": "projects",
+    "name": "Projects",
+    "path": "~/Projects"
+  }
+]
